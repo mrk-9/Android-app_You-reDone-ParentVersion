@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\Android\Android Tasks\Youre Done\YD-parent\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="F:\Android\Android Tasks\Youre Done\YD-parent\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.3.0_337d7fb4e95c3953ed1377947a00201cdf26319a.jar" />
+    </item>
+    <item
+        jar="F:\Android\Android Tasks\Youre Done\YD-parent\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e4f05d61343e9ef384830e0cd5a415dde5396459">
+        <dex dex="F:\Android\Android Tasks\Youre Done\YD-parent\app\build\intermediates\pre-dexed\debug\instant-run_5739d795fd319086e5f5d5bddcf5d418d3357379.jar" />
+    </item>
+    <item
+        jar="C:\Users\RED\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="F:\Android\Android Tasks\Youre Done\YD-parent\app\build\intermediates\pre-dexed\debug\httpclient-4.3.6_4878c2c23e1922f708625f21b3faf6c7c8014e7d.jar" />
+    </item>
+    <item
+        jar="F:\Android\Android Tasks\Youre Done\YD-parent\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="F:\Android\Android Tasks\Youre Done\YD-parent\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.3.0_36926e7094adf9c7cee8dd93bcc1adf0b7d3ddf6.jar" />
+    </item>
+    <item
+        jar="F:\Android\Android\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="F:\Android\Android Tasks\Youre Done\YD-parent\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_d8d01c3b3552151153b4f3ba922340d555c162d5.jar" />
+    </item>
+    <item
+        jar="F:\Android\Android Tasks\Youre Done\YD-parent\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="F:\Android\Android Tasks\Youre Done\YD-parent\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.3.0_fda8d5ba24e7c6c4a715b942ce503b45215c030e.jar" />
+    </item>
+    <item
+        jar="F:\Android\Android Tasks\Youre Done\YD-parent\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="F:\Android\Android Tasks\Youre Done\YD-parent\app\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_83ed254e1e07d35e05ef0ee80128f7bdf545687f.jar" />
+    </item>
+    <item
+        jar="F:\Android\Android Tasks\Youre Done\YD-parent\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4c5933e9d7033df1231a7ed608613159d1503ca3">
+        <dex dex="F:\Android\Android Tasks\Youre Done\YD-parent\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_40075377caf2b53c5769815a5f0fd5c9b0a2cb73.jar" />
+    </item>
+    <item
+        jar="F:\Android\Android Tasks\Youre Done\YD-parent\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="F:\Android\Android Tasks\Youre Done\YD-parent\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.3.0_1f0abd2108ca6a0d92f9c74ce1e56117c65cee71.jar" />
+    </item>
+    <item
+        jar="C:\Users\RED\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.9\386a4339ffe52d5d63e80f9bed8d2b1d1a418249\android-async-http-1.4.9.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="F:\Android\Android Tasks\Youre Done\YD-parent\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.9_a95949d8a29609f4b1cf1be201a77d41ef811efc.jar" />
+    </item>
+
+</items>

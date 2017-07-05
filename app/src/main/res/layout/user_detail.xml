@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bed6f8">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/header_title"
+        android:background="#ca0c0a">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="YOU&apos;RE DONE!"
+            android:id="@+id/textView"
+            android:textSize="30dp"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:textColor="#ece909"
+            android:shadowColor="#010000" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/header_title"
+        android:layout_marginTop="30dp"
+        android:id="@+id/linear1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:id="@+id/textView4"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"
+            android:layout_marginTop="-4dp"
+            android:textStyle="bold"
+            android:textColor="#0a3385" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/name_display_txt"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="-23dp"
+            android:textSize="18dp"
+            android:textColor="#d90303"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/linear1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/linear2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passcode:"
+            android:id="@+id/passcode_lbltxt"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="-2dp"
+            android:textStyle="bold"
+            android:textColor="#0a3385" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/passcode_display_txt"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="-20dp"
+            android:textSize="18dp"
+            android:textColor="#d90303"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView5"
+        android:layout_below="@id/linear2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/images"
+        android:layout_marginLeft="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00 : 00 : 00"
+        android:id="@+id/amount_time"
+        android:layout_marginTop="-69dp"
+        android:layout_marginLeft="115dp"
+        android:layout_gravity="center_vertical"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_edittxt"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/textedit1"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:hint="Lock Time"
+        android:textColorHint="#7f7d7d"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:id="@+id/textView8"
+        android:textColor="#0625a4"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/password_txtedit"
+        android:background="@drawable/textedit1"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/textView8"
+        android:layout_marginTop="5dp"
+        android:hint="5-character minimum: case sensitive"
+        android:textColor="#030000"
+        android:textColorHint="#7f7d7d"
+        android:textStyle="italic"
+        android:inputType="textPassword|text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reenter Password"
+        android:id="@+id/textView9"
+        android:textColor="#0625a4"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/repassword_txtedit"
+        android:background="@drawable/textedit1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:hint="Please reenter password"
+        android:textColor="#030000"
+        android:textColorHint="#7f7d7d"
+        android:textStyle="italic"
+        android:inputType="textPassword|text" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:text="OK"
+            android:id="@+id/userdetail_OK_btn"
+            android:background="@drawable/bluebutton"
+            android:layout_marginLeft="50dp"
+            android:textColor="#020000"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:text="CANCEL"
+            android:id="@+id/userdetail_cancel_btn"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="-35dp"
+            android:background="@drawable/bluebutton"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>

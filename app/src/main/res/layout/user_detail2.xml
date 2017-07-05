@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bed6f8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/header_title"
+        android:background="#ca0c0a">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="YOU&apos;RE DONE!"
+            android:id="@+id/textView"
+            android:textSize="30dp"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:textColor="#ece909"
+            android:shadowColor="#010000" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/header_title"
+        android:layout_marginTop="30dp"
+        android:id="@+id/linear1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:id="@+id/name_title"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"
+            android:layout_marginTop="-4dp"
+            android:textStyle="bold"
+            android:textColor="#0a3385" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/name_display_txt2"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="-23dp"
+            android:textSize="18dp"
+            android:textColor="#d90303"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/linear1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/linear2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passcode:"
+            android:id="@+id/passcode_title"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="-2dp"
+            android:textStyle="bold"
+            android:textColor="#0a3385" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/passcode_display_txt2"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="-20dp"
+            android:textSize="18dp"
+            android:textColor="#d90303"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/timer_view_user"
+        android:layout_below="@id/linear2">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView5"
+            android:background="@drawable/images" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00 : 00 : 00"
+            android:id="@+id/amount_time2"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timer_view_user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageView6"
+            android:src="@drawable/gpslocaltime_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time Remaining:"
+            android:id="@+id/textView10"
+            android:layout_toEndOf="@+id/imageView6"
+            android:textColor="#010000"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00 : 00 : 00"
+            android:id="@+id/remain_time_txtview"
+            android:textSize="20dp"
+            android:layout_toEndOf="@id/textView10"
+            android:layout_centerVertical="true"
+            android:textColor="#f80707" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:id="@+id/password_title"
+        android:textColor="#0625a4"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/timer_view_user"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/password_txtedit2"
+        android:background="@drawable/textedit1"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/password_title"
+        android:layout_marginTop="5dp"
+        android:hint="5-character minimum: case sensitive"
+        android:textColor="#030000"
+        android:textColorHint="#7f7d7d"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword|text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Please enter a password if you want to unlock your kid&apos;s phone early"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/password_txtedit2"
+        android:layout_marginTop="10dp"
+        android:textColor="#0410f5"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:text="OK"
+            android:id="@+id/userdetail_OK_btn2"
+            android:background="@drawable/bluebutton"
+            android:layout_marginLeft="50dp"
+            android:textColor="#020000"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:text="CANCEL"
+            android:id="@+id/userdetail_cancel_btn2"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="-35dp"
+            android:background="@drawable/bluebutton"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/unlock_parAlert">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#020000"
+            android:alpha="0.9"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/rounded_corner_new"
+            android:id="@+id/unlock_alertView">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Are you really to unlock this phone?"
+                android:id="@+id/textView11"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/imageView8"
+                android:src="@drawable/unlock"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="5dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp">
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:text="OK"
+                    android:id="@+id/alert_ok"
+                    android:background="@drawable/bluebutton"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#010000" />
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:text="CANCEL"
+                    android:id="@+id/alert_cancel"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="-30dp"
+                    android:background="@drawable/bluebutton"
+                    android:textStyle="bold"
+                    android:textColor="#020000" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

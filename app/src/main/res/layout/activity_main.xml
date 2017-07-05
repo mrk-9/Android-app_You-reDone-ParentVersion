@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9a2220">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toprelativelayout"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/topTitle"
+            android:text="Welcome To You&apos;re Done"
+            android:layout_centerHorizontal="true"
+            android:textColor="#fbfb04"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/toptitle2"
+            android:text="An app created by parents for parents."
+            android:textSize="18dp"
+            android:textColor="#fbfb04"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/topTitle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/toptitle3"
+            android:text="Here's how it works:"
+            android:textSize="18dp"
+            android:textColor="#fbfb04"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/toptitle2"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/lock"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/toptitle3"
+            android:layout_marginLeft="-10dp"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/toprelativelayout"
+        android:id="@+id/scrollView"
+        android:scrollbars="vertical"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Download the kids version to your child'sAndroid phone.(This will not freeze an
+            iphone.) \n\n 2.Enter your child's name and passcode along with your number for them to call in
+            case of an emergency.(write it down so you don't forget).\n\n 3.On the parent app, click the add button
+            reenter your child's name and passcode.(You can add up to 5 names). \n\n 4.When Jr. starts backtalking and breaking
+            rules, simply press the icon by their name.Enter a time value on the timer
+            and press OK. Then, sit back with a glass of wine and laugh til your sides ache as
+            they remember just who is in charge.\n\n 5.If you observe the appropriate amount of
+            remorse and penance,you can unlock their phone early by pressing the red button
+            by their name and entering the passcode."
+
+            android:textSize="16dp"
+            android:textColor="#ffffff"
+            android:id="@+id/textView14"
+            android:layout_marginLeft="20dp"
+            android:textStyle="italic" />
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textbosat"
+        android:layout_below="@+id/scrollView"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textinst"
+            android:text="For more information, or to view our privacy statement and user agreement, go to"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textColor="#fbfb04" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="www.youredoneapp.com"
+            android:id="@+id/txturl"
+            android:textSize="18dp"
+            android:layout_below="@+id/textinst"
+            android:layout_centerHorizontal="true"
+            android:textColor="#0404fe"
+            android:singleLine="false"
+            android:linksClickable="false"
+            android:enabled="false" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click ACCEPT to agree to terms defined in user agreement."
+            android:textSize="16dp"
+            android:layout_below="@+id/txturl"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="2dp"
+            android:textColor="#fbfb04" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        >
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="ACCEPT"
+            android:id="@+id/accept_btn"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bluebutton"
+            android:textColor="#020000"
+            android:textStyle="bold" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="DECLINE"
+            android:id="@+id/decline_btn"
+            android:layout_marginLeft="50dp"
+            android:layout_toEndOf="@+id/accept_btn"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bluebutton"
+            android:textColor="#030000"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>
